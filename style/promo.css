@@ -127,7 +127,7 @@
     display: grid;
     grid-template-columns: 140px 140px 380px;
     grid-template-rows: repeat(3, 140px) repeat(3, 140px) 220px 140px 60px auto;
-    grid-gap: 20px; /* Можете настроить интервал между картинками по вашему вкусу */
+    grid-gap: 20px;
     width: 700px;
     height: 977px;
   }
@@ -178,7 +178,7 @@
   }
   
   .promo__item-10 {
-    grid-column: 1 / 4; /* Расширяет картинку на все три колонки */
-    grid-row: 6 / 8; /* Занимает две строки */
+    grid-column: 1 / 4;
+    grid-row: 6 / 8;
   }
 }
