@@ -13,7 +13,7 @@
 
   <header class="header">
     <div class="container">
-      <div class="container header__container">
+      <div class="header__container">
         <div class="header__logo">
           <a href="#" class="header__logo-link">
             <svg width="188" height="31" viewBox="0 0 188 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@
             <input class="header__search-input" type="text" name="" id="text" placeholder="Я ищу...">
             <div class="search-icon">
               <a class="header__search-btn" href="#">
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="header__search-btn-icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_4338_109)">
                     <path d="M23.25 21H22.065L21.645 20.595C23.115 18.885 24 16.665 24 14.25C24 8.865 19.635 4.5 14.25 4.5C8.865 4.5 4.5 8.865 4.5 14.25C4.5 19.635 8.865 24 14.25 24C16.665 24 18.885 23.115 20.595 21.645L21 22.065V23.25L28.5 30.735L30.735 28.5L23.25 21V21ZM14.25 21C10.515 21 7.5 17.985 7.5 14.25C7.5 10.515 10.515 7.5 14.25 7.5C17.985 7.5 21 10.515 21 14.25C21 17.985 17.985 21 14.25 21Z" fill="white"/>
                   </g>
@@ -112,7 +112,10 @@
     <section class="hero">
       <div class="container hero__container">
         <div class="promo__item-0">
+          <picture>
+            <source media="(max-width: 320px)" srcset="./img/banner320.jpg">
           <img src="./img/banner.jpg" alt="">
+        </picture>
         </div>
       </div>
     </section>
@@ -142,13 +145,21 @@
             <img src="./img/7.jpg" alt="">
           </div>
           <div class="promo__item-08">
-            <img src="./img/8.jpg" alt="">
+            <picture>
+              <source media="(min-width: 320px) and (max-width: 767px)" srcset="./img/8-320.jpg">
+              <source media="(max-width: 768px)" srcset="./img/Rectangle-08-768.jpg">
+              <img src="./img/8.jpg" alt="">
+            </picture>
           </div>
           <div class="promo__item-09">
             <img src="./img/9.jpg" alt="">
           </div>
           <div class="promo__item-10">
-            <img src="./img/10.jpg" alt="">
+            <picture>
+              <source media="(min-width: 320px) and (max-width: 767px)" srcset="./img/10-320.jpg">
+              <source media="(max-width: 768px)" srcset="./img/Rectangle_1088.jpg">
+              <img src="./img/10.jpg" alt="">
+            </picture>
           </div>
         </div>
       </div>
